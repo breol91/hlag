@@ -45,9 +45,18 @@
 
     <dependencies>
         <dependency>
+		    <groupId>com.kumuluz.ee</groupId>
+		    <artifactId>kumuluzee-cdi-weld</artifactId>
+		</dependency>
+        <dependency>
             <groupId>com.kumuluz.ee</groupId>
-            <artifactId>kumuluzee-jpa-hibernate</artifactId>
+            <artifactId>kumuluzee-jpa-eclipselink</artifactId>
         </dependency>
+        <dependency>
+		    <groupId>org.postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+		    <version>42.0.0</version>
+		</dependency>
         <dependency>
             <groupId>com.kumuluz.ee.logs</groupId>
             <artifactId>kumuluzee-logs-log4j2</artifactId>
@@ -77,7 +86,7 @@
         </dependency>
         <dependency>
             <groupId>com.kumuluz.ee</groupId>
-            <artifactId>kumuluzee-microProfile-2.0</artifactId>
+            <artifactId>kumuluzee-microProfile-3.0</artifactId>
         </dependency>
     </dependencies>
 
